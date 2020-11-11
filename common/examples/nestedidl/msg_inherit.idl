@@ -1,0 +1,6 @@
+#include "msg_base.idl"
+struct msg_inherit{
+    msg_base imu;
+    unsigned long tv_sec;
+    unsigned long tv_usec;
+};

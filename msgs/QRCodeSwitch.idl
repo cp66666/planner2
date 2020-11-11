@@ -1,0 +1,4 @@
+struct qrcode_switch_msg
+{
+	long detect_qrcode;
+};

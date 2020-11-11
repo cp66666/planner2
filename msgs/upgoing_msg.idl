@@ -1,0 +1,7 @@
+module commander_msg
+{
+    struct UpgoingMsg
+    {
+        string<10000> upgoing_msg;
+    };
+};

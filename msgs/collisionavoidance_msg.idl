@@ -1,0 +1,8 @@
+struct collisionavoidance_msg
+{
+	long command;
+	float theta;
+	long w;
+	long h;
+	sequence<octet, 500*500> mapdata;
+};

@@ -1,0 +1,5 @@
+struct msg_base{
+    float x;
+    float y;
+    float theta;
+};

@@ -1,0 +1,11 @@
+  // IDL File "MsgModule.idl".
+module MsgNameSpace{
+    struct Msg_A{
+      short x;
+      short y;
+  };
+    struct Msg_B{
+        Msg_A msgA;
+        unsigned long index;
+    };
+};//module MsgNameSpace

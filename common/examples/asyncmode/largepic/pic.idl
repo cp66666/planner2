@@ -1,0 +1,7 @@
+struct pic
+{
+    char img[1920][1080];
+    unsigned long tv_sec;
+    unsigned long tv_usec;
+    unsigned long index;
+};

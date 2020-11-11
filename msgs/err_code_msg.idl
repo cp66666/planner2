@@ -1,0 +1,7 @@
+module commander_msg
+{
+    struct ErrCodeMsg
+    {
+        string err_code;
+    };
+};

@@ -1,0 +1,12 @@
+struct landmark_msg
+{
+    unsigned long timestamp_secs;
+    unsigned long timestamp_nsecs;
+    long long id;
+    sequence<float, 3> landmark_to_tracking_transform_translation;
+    sequence<float, 3> landmark_to_tracking_transform_rotation;
+    double translation_weight;
+    double rotation_weight;
+    unsigned long type;
+    string<1000> code;
+};

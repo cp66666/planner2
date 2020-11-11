@@ -1,0 +1,7 @@
+module commander_msg
+{
+    struct StdMsg
+    {
+        string<10000> std_msg;
+    };
+};
